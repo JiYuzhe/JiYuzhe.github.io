@@ -1,0 +1,38 @@
+html {
+  font-size: 30px; /* px 意为“像素（pixels）”: 这个基础字体的尺寸现在是10像素  */
+  font-family: 'Rammetto One', cursive;
+  background-color: #A3A3FF;
+
+}
+
+h1 {
+  font-size: 50px;
+  text-align: center;
+  margin: 0;
+  padding: 20px 0;
+  color: #00539F;
+  text-shadow: 3px 3px 1px black;/*阴影效果*/
+}
+
+p, li {
+  font-size: 16px;
+  line-height: 2;
+  letter-spacing: 1px;
+}
+
+img {
+  display: block;/*将图像改为块级区域，占据了页面的空间并且能够赋予外边距和其他改变间距的值。*/
+  margin: 0 auto;
+}
+
+a:hover{
+  color:blue;
+}
+
+body {
+  width: 1300px;
+  margin: 0 auto;/*设置外边框间距*/
+  background-color: #FF9500;
+  padding: 0 20px 20px 20px;/*内边距设置了四个值来让内容四周产生一点空间。顺序是从上开始顺时针*/
+  border: 5px solid black;/*为页面四周设置了5像素的黑色实线边框*/
+}
